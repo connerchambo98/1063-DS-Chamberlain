@@ -1,0 +1,35 @@
+// Conner Chamberlain
+// "Homework: toupper function"
+// 3/26/18
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string tolower(string w){
+  for(int i=0;i<w.length();i++){
+    
+    if((int)w[i]>=65 && (int)w[i]<=90){
+      w[i] = w[i]+32;
+    }
+  }
+  return w;
+}
+// This is the toupper funtion that capitalizes the string.
+string toupper(string w){
+  for(int i=0;i<w.length();i++){
+    
+    if((int)w[i]>=97 && (int)w[i]<=122){
+      w[i] = w[i]-32;
+    }
+  }
+  return w;
+}
+
+int main() {
+  string x = "antelope";
+ cout<<x<<endl;
+  cout<<tolower(x)<<endl;
+  cout<<toupper(x)<<endl;
+}
