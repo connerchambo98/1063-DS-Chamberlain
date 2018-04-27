@@ -97,7 +97,7 @@ int main()
   
     
   //prompts user for a number
-  cout << "Choose a number: " << endl;
+  cout << "Choose a number between 1 and 13: " << endl;
   
   cin >> num;       
   
@@ -105,7 +105,7 @@ int main()
   // was not between 1 and 13
   while(num > 13 || num < 1)
   {
-    cout << "Pick another number: " << endl;
+    cout << "Number must be between 1 and 13: " << endl;
     
     cin >> num;
   }
