@@ -27,8 +27,7 @@ void DBList::InsertFront(string Data){
 
 /**
  * InsertFront 
- *     Inserts a value at the front of the list by calling 
- *     actual insert with a node.
+ *     Inserts a value at the front
  * Params:
  *     Node* &Temp : allows formation of the node and 
  *     linking to the other nodes
@@ -81,8 +80,7 @@ void DBList::InsertRear(Node* &Temp){
 
 /**
  * InsertRear 
- *     Inserts a value at the rear of the list by calling 
- *     actual insert with a node.
+ *     Inserts a value at the rear .
  * Params: 
  *        string: data to be inserted
  *     
