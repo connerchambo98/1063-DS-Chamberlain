@@ -1,1 +1,42 @@
-
+///////////////////////////////////////
+//ProgramName: Program-3
+//Author: Conner Chamberlain
+//Description: 
+//This program reads in animal names into a doubly-linked
+//list. It then prompts the user to enter a number that will
+//serve as the random number seed. It then prompts the user
+//to enter a number that acts as the multiplier. If the
+//number is even, the pointer moves to the right and vice
+//versa. Animals are then removed based on the random number
+//until one animal is left. This animal is then declared the
+//winner (the animal names are read in from a .txt file).
+//This is all made possible from the class with methods
+//for checking conditions and loops to initiate said methods
+//in main.cpp.
+//Course: 1063 Data Structures
+//Semester: Spring 2018
+//Date: 27 04 2018
+/////////////////////////////////////////////////////////////////////////////////////////////
+The chosen multiplier: 5
+First: - spoonbill
+- chicken
+- ferret
+- snake
+- stork
+- badger
+- crow
+- mandrill
+- weasel
+- sea-urchin
+- herring
+- jackal
+- shark
+- lyrebird
+- seahorse
+- lion
+- prairie-dog
+- goose
+- pig
+- lobster
+- fly
+WINNER: elephant!!
